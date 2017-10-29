@@ -3,3 +3,10 @@ $("#menu-toggle").click(function(e) {
     $("#wrapper").toggleClass("toggled");
     }
   );
+$(document).ready(function() {
+	$("button").click(function(e){
+		e.preventDefault();
+
+	});
+  
+});

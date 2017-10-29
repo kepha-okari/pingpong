@@ -59,13 +59,7 @@ body {
 	font-size: 30px;
 	color: #e65c00 ;
 }
-.well {
-	border: 2px;
-	border-radius: 12px;
-	border-color: #e65c00 ;
-	
-	padding: 10px;
-}
+
  .content-about2  {
     align-content: center;
  
@@ -164,5 +158,5 @@ body {
     position: relative;
     margin-right: 0;
   }
-  
+
 }
