@@ -21,7 +21,7 @@ $(document).ready(function() {
 			} else if(i%3!=0 $$ i%5=0) {         // display number divisible only 5
 				$(".verb").append(provitionalTotal);
 
-			} else if(i%15=0 ) {                 // display number 15
+			} else if(i%15=0 ) {                 // display number divisible by 15
 				$(".verb").append(provitionalTotal);
 
 			} else {							// display numericals
