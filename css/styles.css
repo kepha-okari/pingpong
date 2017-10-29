@@ -49,10 +49,51 @@ body {
 	margin-left: 0;
 	background-color: rgb(221, 92, 6);
 }
-.header {
-	float: center;
-}
+/*.header h1 {
+	display: flex;
+	justify-content:center;
 
+}*/
+#play-title {
+	font-family: sans-serif;
+	font-size: 30px;
+	color: #e65c00 ;
+}
+.well {
+	border: 2px;
+	border-radius: 12px;
+	border-color: #e65c00 ;
+	
+	padding: 10px;
+}
+ .content-about2  {
+    align-content: center;
+ 
+    border-radius: 20px;
+    border-color: #db3300;
+}
+.btn  {
+  border: 3px;
+  border-color: red;
+  border-spacing: 2px
+  text-decoration: none;
+}
+#button{
+  background-color: #e65c00 ;
+  font-size: 20px;
+  color: #ffffff ;
+  width: 40%;
+  margin-top: 0; 
+  border-radius: 0;
+}
+#text-area{
+  color:  #e65c00 ;
+  opacity: 0.7;
+  border-radius: 0;
+  width: 40%;
+  outline: 0;
+  display: block;
+}
 /* Sidebar  Styles */
 
 .sidebar-nav {
@@ -123,4 +164,5 @@ body {
     position: relative;
     margin-right: 0;
   }
+  
 }
