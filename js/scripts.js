@@ -10,20 +10,27 @@ $(document).ready(function() {
 
 		var provitionalTotal = 0;                 //initialize the total
 
-		
-		for (var i =1; i <=loopLimit; i++) {
+		var convertedLimit = parseInt(loopLimit);
+
+
+		for (var i =1; i <=convertedLimit; i++) {
+
 			if(i%3=0 $$ i%5!=0){                 // display number divisible only 3
 				$(".verb").append(provitionalTotal);
+
 			} else if(i%3!=0 $$ i%5=0) {         // display number divisible only 5
 				$(".verb").append(provitionalTotal);
+
 			} else if(i%15=0 ) {                 // display number 15
 				$(".verb").append(provitionalTotal);
+
 			} else {							// display numericals
 				$(".verb").append(provitionalTotal);
 			}
 			
-			
 		}
+
+		$(#showResult).show();
 
 	});
 
