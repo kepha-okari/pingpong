@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
@@ -54,7 +55,7 @@
                 <div class="col-md-5">
                     <p>This Application replaces certain numbers in the array as shown below.</p>
                     <p>Numbers divisible by 3 are replaced with "ping".</p>
-                    <p>Numbers divisible by 5 are replaced with "ppng" .</p>
+                    <p>Numbers divisible by 5 are replaced with "pong" .</p>
                     <p>Numbers divisible by 15 are replaced with "pingpong" .</p>
                     <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">INFO</a>
                 </div>
@@ -63,12 +64,14 @@
                   <form id="ping">
                       <p id ="play-title">Play Now</p>
                       <br/>
-                      <input type="text" name="number" placeholder="Enter looping limit" id="text-area"><br/>
-                      <button  id="button" class=" btn btn-secondary " type="submit">Check</button>                                      
+                      <input type="tel" name="number" placeholder="Enter looping limit" id="text-area"><br/>
+                      <button id="button" class=" btn btn-secondary " type="submit">Check</button>                                      
                   </form> 
                 </div>
                 <div class="col-md-3 col-md-offset-9" id="showResult" >
-                  <p>Results</p>
+                  <p id ="output">Results</p>
+                  <p id ="output">
+                  </p>
                   
                 </div>
               </div>
