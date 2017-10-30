@@ -1,12 +1,13 @@
 
 
-$(document).ready(function() {
+
 	$("#menu-toggle").click(function(e) {
 	    e.preventDefault();
 	    console.log("click");
 	    $("#wrapper").toggleClass("toggled");
 	 });
 
+$(document).ready(function() {
 	$("form#ping").submit(function(e){
 
 		var loopLimit = $("input#text-area").val();// to pick the limit from the input box
