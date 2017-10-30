@@ -1,11 +1,14 @@
-$("#menu-toggle").click(function(e) {
-    e.preventDefault();
-    $("#wrapper").toggleClass("toggled");
-    }
-  );
+
 
 $(document).ready(function() {
-	$("button").click(function(e){
+	$("#menu-toggle").click(function(e) {
+	    e.preventDefault();
+	    console.log("click");
+	    $("#wrapper").toggleClass("toggled");
+	 });
+
+	$("form#ping").submit(function(e){
+
 		var loopLimit = $("input#text-area").val();// to pick the limit from the input box
 
 		var provitionalTotal = 0;                 //initialize the total
@@ -15,13 +18,13 @@ $(document).ready(function() {
 
 		for (var i =1; i <=convertedLimit; i++) {
 
-			if(i%3=0 $$ i%5!=0){                 // display number divisible only 3
+			if(i%3===0 && i%5!==0){                 // display number divisible only 3
 				$(".verb").append(provitionalTotal);
 
-			} else if(i%3!=0 $$ i%5=0) {         // display number divisible only 5
+			} else if(i%3!==0 && i%5===0) {         // display number divisible only 5
 				$(".verb").append(provitionalTotal);
 
-			} else if(i%15=0 ) {                 // display number divisible by 15
+			} else if(i%15===0 ) {                 // display number divisible by 15
 				$(".verb").append(provitionalTotal);
 
 			} else {							// display numericals
@@ -30,8 +33,8 @@ $(document).ready(function() {
 			
 		}
 
-		$(#showResult).show();
-
+		$("#showResult").show();
+		e.preventDefault();
 	});
 
   });
