@@ -10,7 +10,7 @@ this is a javascript website to display various numbers that are divisible by 3,
 
 # Technologies Used
 
-The site uses HTML,CSS, bootstrap,javascript and jQuery to implement.
+The site uses HTML,CSS, bootstrap,javascript and jQuery to implement both the user interface and business logic of the app.
 
 ## License
 
