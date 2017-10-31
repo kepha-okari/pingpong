@@ -74,6 +74,7 @@ $(document).ready(function () {
     $("form#ping ").submit(function (event) {
         event.preventDefault();
         //Clear previously displayed output
+        $("p#output").empty();
       
         //Store the user input into a variable
         var enteredNumber = parseInt($("#text-area").val());
