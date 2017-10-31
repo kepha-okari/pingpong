@@ -65,7 +65,8 @@ $(document).ready(function() {
 	//A function to clear the input field after successful submission of a number.
 	function clearForm(form) {
 	    // $(':input').not(':button, :submit').val('');
-	    $("#text-area").val("");
+	    //
+	    $("#text-area").val(""); // to only clear the text box
 	};
 
 // Front End Logic
@@ -92,6 +93,7 @@ $(document).ready(function () {
        
         //Clear the previously filled input by calling the function clearForm to empty out the input field
         //clearForm("input");
+        // alternatively:
          //$("#text-area").val("");
     });
 });
