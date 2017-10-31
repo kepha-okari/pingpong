@@ -32,9 +32,12 @@ body {
 }
 #output  {
   color: #e65c00 ;
+  text-align: center;
 }
 #output  hr{
+  margin-top: 1px;
   border-color: #e65c00 ;
+  width: 100px;
 }
 
 
@@ -70,6 +73,12 @@ body {
     border-color: #db3300;
 }
 .btn  {
+  border: 3px;
+  border-color: red;
+  border-spacing: 2px
+  text-decoration: none;
+}
+#menu-toggle {
   border: 3px;
   border-color: red;
   border-spacing: 2px
