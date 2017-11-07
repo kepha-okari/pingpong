@@ -80,7 +80,7 @@ $(document).ready(function () {
         var enteredNumber = parseInt($("#text-area").val());
         //Call the function countUp to work on the new variable enteredNumber inside a new variable
         var countedNumbers = countUp(enteredNumber);
-        console.log(countedNumbers);
+        console.log(countedNumbers);// this has no impact on the out put..just used it for debuging from the browsers console
         //Print out the processed numbers in list form.
         for (var index = 0; index <= countedNumbers.length - 1; index++) {
             $("p#output").append(countedNumbers[index]+"</br>");

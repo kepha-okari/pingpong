@@ -22,13 +22,21 @@ this is a javascript website to display various numbers that are divisible by 3,
 
 
 
+## CREDITS
 
-# Technologies Used
+####  StackOverflow.com and W3 schools.
 
-The site uses HTML,CSS, bootstrap,javascript and jQuery to implement both the user interface and business logic of the app.
+## Technoligies
+
+##### 
+* HTML
+* CSS
+* Bootstrap.
+* Javascript.
+* JQuery
 
 ## License
 
-*MIT Licence*
+*MIT License
 
-Copyright (c) 2017 ** Kepha Okari **
+Copyright (c) 2017 Kepha Okari
